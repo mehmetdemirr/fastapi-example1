@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Item Details</title>
+</head>
+<body>
+    {% for i in list %}
+    <h1>{{i}}</h1>
+    {% endfor %}
+    
+    {% for i in range(id) %}
+    <h1>{{ i }} 
+        {% if  i%2 == 0 %}
+         çift sayı
+        {% else %}
+        tek sayı
+        {% endif %}
+    </h1>
+    {% endfor %}
+</body>
+</html>
